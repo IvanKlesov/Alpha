@@ -1,7 +1,9 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  padding: 0;
   background: #FEFEFE;
+  color: #2E2E2E;
 }
 
 /* Header */
@@ -70,4 +72,99 @@ body {
   color: #FEFEFE;
   background: #DCB5CE;
   border-radius: 5px;
+}
+
+/* Header end */
+
+/* Banner */
+
+.banner {
+  background-image: url(./images/banner.jpg);
+  background-size: cover;
+  margin-top: 10px;
+  height: 600px;
+  position: relative;
+}
+
+.banner-switch {
+  position: absolute;
+  left: 48%;
+  bottom: 2%;
+}
+
+.banner-switch a {
+  border-radius: 50%;
+  background: #DCB5CE;
+  opacity: 1;
+  margin: 5px;
+  padding: 0px 8px;
+}
+
+/* Banner end */
+
+/* Services */
+
+.services-wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.services-wrapper h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2E2E2E;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 1440px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding-bottom: 10px;
+  background: #EED8E7;
+  margin: 0 20px 20px 20px;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.service img {
+  width: 298px;
+  border: 2px;
+  border-radius: 15px;
+  border-color: #EED8E7;
+}
+
+.service h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2E2E2E;
+  text-transform: uppercase;
+  margin: 20px auto;
+}
+
+.service ul {
+  list-style-type: circle;
+}
+
+.service li {
+  padding: 5px;
+  margin: 5px;
+}
+
+.service div {
+  line-height: 1;
+  text-align: center;
+  width: 150px;
 }
