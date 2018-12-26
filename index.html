@@ -6,7 +6,24 @@
     <title>Alpha</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <script src="https://api-maps.yandex.ru/2.0-stable/?apikey=<0fcbba49-951b-4435-9244-5ebfd0919a39>&load=package.standard&lang=ru-RU" type="text/javascript"></script>
+    <script type="text/javascript">
+      ymaps.ready(init);
+      var myMap, myPlacemark;
+
+      function init() {
+          myMap = new ymaps.Map ("map", {
+          center: [51.741393, 36.199320],
+          zoom: 17
+      });
+
+      myPlacemark = new ymaps.Placemark([51.741393, 36.199320], {
+         content: 'Альфа', balloonContent: 'Реклманая компания Альфа'
+      });
+      myMap.geoObjects.add(myPlacemark);
+      }
+    </script>
   </head>
   <body>
       <div class = "header">
@@ -66,7 +83,7 @@
         <h2> Наши услуги </h2>
         <div class = "services">
           <div class = "service">
-            <img src="./images/logo.svg">
+            <img src="./images/service1.svg">
             <h3>Наружная реклама</h3>
             <ul>
               <li> Объёмные буквы</li>
@@ -78,7 +95,7 @@
             </ul>
           </div>
           <div class = "service">
-            <img src="./images/logo.svg">
+            <img src="./images/service2.svg">
             <h3>Интерьерная реклама</h3>
             <ul>
               <li> Объёмные буквы</li>
@@ -91,7 +108,7 @@
             </ul>
           </div>
           <div class = "service">
-            <img src="./images/logo.svg">
+            <img src="./images/service3.svg">
             <h3>Широкоформатная печать</h3>
             <ul>
               <li> Баннерная ткань</li>
@@ -100,7 +117,7 @@
             </ul>
           </div>
           <div class = "service">
-            <img src="./images/logo.svg">
+            <img src="./images/service4.svg">
             <h3>Интерьерная печать</h3>
             <ul>
               <li> Баннерная ткань</li>
@@ -111,7 +128,7 @@
             </ul>
           </div>
           <div class = "service">
-            <img src="./images/logo.svg">
+            <img src="./images/service5.svg">
             <h3>Полиграфия</h3>
             <ul>
               <li> Визитки</li>
@@ -122,21 +139,21 @@
             </ul>
           </div>
           <div class = "service">
-            <img src="./images/logo.svg">
+            <img src="./images/service6.svg">
             <h3>Реклама в лифте</h3>
             <div>
               Размещение вашей рекламы на стендах в лифтах различных районов города Курска!
             </div>
           </div>
           <div class = "service">
-            <img src="./images/logo.svg">
+            <img src="./images/service7.svg">
             <h3>Реклама в конвертах</h3>
             <div>
               Ваша реклама в конверты вместе с квитанцией. От дизайна до адресата!
             </div>
           </div>
           <div class = "service">
-            <img src="./images/logo.svg">
+            <img src="./images/service8.svg">
             <h3>Плоттерная резка</h3>
             <ul>
               <li> Цветная плёнка</li>
@@ -147,6 +164,145 @@
             </ul>
           </div>
         </div>
+      </div>
+      <div class = "ourwork-wrapper">
+        <h2> Наши работы </h2>
+        <div class = "ourwork-text">
+          Нам важно не только выполнить свою работу, но и добиться успеха.
+          Мы поможем обрести индивидуальный стиль и полностью реализовать
+          потенциал. Мы очень гордимся своими достижениями и с удовольствием
+          расскажем о них все,что вас интересует. Ознакомьтесь с нашими
+          проектами, чтобы получить представление о том, на что мы способны.
+        </div>
+        <div class = "ourwork">
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Реклама в лифте </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Таблички ПВХ с печатью </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Световая вывеска </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Информационный стенд </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Листовки </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Табличка режим работы </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Карманный календарь </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Наклейки печать </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Наклейки печать </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Таблички на двери </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Магнитики </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Роспись стен </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Визитки </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Уличные таблички-знаки </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Таблички на школу </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Плоттерная порезка на мебели </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Клубные карты </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Информационная таблица-прайс </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Штендер </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Разработка дизайна </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Поклейка печати с порезкой </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Световая интерьерная вывеска </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Баннер для размещения на щите </h3>
+          </div>
+          <div class = "work">
+            <img src = "./images/work.svg">
+            <h3> Тонировка стёкол </h3>
+          </div>
+        </div>
+      </div>
+      <div class = "gallery-wrapper">
+        <h2>Галерея</h2>
+        <div class="gallery">
+
+        </div>
+      </div>
+      <div class = "feedback-wrapper">
+        <h2>Отзывы</h2>
+        <div class = "feedback-count">
+          17 отзывов
+        </div>
+        <div class = "feedback-comments">
+
+        </div>
+        <h2> Наша цель - довольный клиент</h2>
+        <div class = "feedback-clients">
+          <div><img src="./images/client1.svg"></div>
+          <div><img src="./images/client2.svg"></div>
+          <div><img src="./images/client3.svg"></div>
+          <div><img src="./images/client5.svg"></div>
+          <div><img src="./images/client4.svg"></div>
+          <div><img src="./images/client6.svg"></div>
+          <div><img src="./images/client7.svg"></div>
+          <div><img src="./images/client8.svg"></div>
+        </div>
+      </div>
+      <div id = "map">
+      </div>
+      <div class = "footer">
+
       </div>
   </body>
 </html>

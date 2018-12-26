@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
   padding: 0;
   background: #FEFEFE;
@@ -18,7 +18,7 @@ body {
 }
 
 .header-logo {
-  vertical-align: middle;
+
 }
 
 .header-info {
@@ -66,12 +66,8 @@ body {
 }
 
 .header-info-menu a:hover {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 20px;
   color: #FEFEFE;
-  background: #DCB5CE;
-  border-radius: 5px;
+  background-color: #DCB5CE;
 }
 
 /* Header end */
@@ -79,7 +75,7 @@ body {
 /* Banner */
 
 .banner {
-  background-image: url(./images/banner.jpg);
+  background-image: url(./images/banner1.svg);
   background-size: cover;
   margin-top: 10px;
   height: 600px;
@@ -106,10 +102,6 @@ body {
 
 .services-wrapper {
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
 }
 
 .services-wrapper h2 {
@@ -118,11 +110,13 @@ body {
   color: #2E2E2E;
   text-transform: uppercase;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .services {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 20px auto;
   max-width: 1440px;
 }
@@ -167,4 +161,124 @@ body {
   line-height: 1;
   text-align: center;
   width: 150px;
+}
+
+/* Services end */
+/* Our work */
+
+
+.ourwork-wrapper {
+  margin-top: 20px;
+  background-color: #F1F1F1;
+}
+
+.ourwork-wrapper h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2E2E2E;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ourwork-text {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ourwork {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto;
+  max-width: 1440px;
+}
+
+.work {
+  width: 200px;
+  padding-bottom: 20px;
+  margin: 0 10px;
+}
+
+.work img {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.work h3 {
+  font-size: 18px;
+  font-weight: 550;
+  color: #2E2E2E;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Our work end */
+/* Gallery */
+
+.gallery-wrapper {
+  margin-top: 20px;
+  background-color: #F1F1F1;
+}
+
+.gallery-wrapper h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2E2E2E;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+/* Gallery end */
+/* Feedback */
+
+.feedback-wrapper {
+  margin-top: 20px;
+  background-color: #FEFEFE;
+}
+
+.feedback-wrapper h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2E2E2E;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feedback-count {
+  text-align: center;
+  font-size: 28px;
+  color: #2E2E2E;
+  margin-bottom: 20px;
+}
+
+.feedback-clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto;
+  max-width: 1440px;
+}
+
+.feedback-clients div {
+  width: 200px;
+}
+
+.feedback-clients img {
+  width: 200px;
+}
+
+/* Feedback end */
+/* Map */
+
+#map {
+  height: 600px;
+  margin-top: 40px;
+
 }
