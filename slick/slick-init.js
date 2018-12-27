@@ -1,5 +1,8 @@
 $(document).ready(function(){
   $('.banners').slick({
-    setting-name: setting-value
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1
   });
 });
