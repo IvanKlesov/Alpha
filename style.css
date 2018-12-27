@@ -74,15 +74,30 @@ body {
 
 /* Banner */
 
-.banner {
-  background-image: url(./images/banner1.svg);
-  background-size: cover;
+.banners {
   margin-top: 10px;
-  height: 600px;
   position: relative;
 }
 
-.banner-switch {
+.banner1 {
+  background-image: url(./images/banner1.png);
+  background-size: cover;
+  height: 600px;
+}
+
+.banner2 {
+  background-image: url(./images/banner2.png);
+  background-size: cover;
+  height: 600px;
+}
+
+.banner3 {
+  background-image: url(./images/banner3.png);
+  background-size: cover;
+  height: 600px;
+}
+
+/*.banner-switch {
   position: absolute;
   left: 48%;
   bottom: 2%;
@@ -95,7 +110,7 @@ body {
   margin: 5px;
   padding: 0px 8px;
 }
-
+*/
 /* Banner end */
 
 /* Services */
