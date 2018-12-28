@@ -80,19 +80,19 @@ body {
 }
 
 .banner1 {
-  background-image: url(./images/banner1.png);
+  background-image: url(../images/banner1.png);
   background-size: cover;
   height: 60vh !important;
 }
 
 .banner2 {
-  background-image: url(./images/banner2.png);
+  background-image: url(../images/banner2.png);
   background-size: cover;
   height: 60vh !important;
 }
 
 .banner3 {
-  background-image: url(./images/banner3.png);
+  background-image: url(../images/banner3.png);
   background-size: cover;
   height: 60vh !important;
 }
@@ -317,6 +317,15 @@ body {
   margin-bottom: 20px;
 }
 
+.gallery {
+  position: relative;
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.gallery div {
+
+}
 
 /* Gallery end */
 /* Feedback */
@@ -346,13 +355,13 @@ body {
   max-width: 1440px;
   margin: 50px auto 80px;
   position: relative;
+  padding: 0 10%;
 }
 
 .comment {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  width: 80% !important;
 }
 
 .comments img {

@@ -4,14 +4,15 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alpha</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/pinbox.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <script src = "./js/jquery.min.js"></script>
-    <script src = "./js/jquery.pinbox.js"></script>
     <script src = "./js/jquery.pinbox.min.js"></script>
+    <script src = "./js/pinbox.js"></script>
     <script src="https://api-maps.yandex.ru/2.0-stable/?apikey=<0fcbba49-951b-4435-9244-5ebfd0919a39>&load=package.standard&lang=ru-RU" type="text/javascript"></script>
     <script type="text/javascript">
       ymaps.ready(init);
@@ -281,8 +282,43 @@
       </div>
       <div class = "gallery-wrapper">
         <h2>Галерея</h2>
-        <div class="gallery">
-
+        <div class="gallery" id="categoryProductContainer">
+          <div class = "span2 pcon  prodcont actioninside new">
+            <img src="./images/gallery1.png">
+          </div>
+          <div class = "span2 pcon  prodcont actioninside new">
+            <img src="./images/gallery2.png">
+          </div>
+          <div class = "span2 pcon  prodcont actioninside new">
+            <img src="./images/gallery3.png">
+          </div>
+          <div class = "span2 pcon  prodcont actioninside new">
+            <img src="./images/gallery4.png">
+          </div>
+          <div class = "span2 pcon  prodcont actioninside new">
+            <img src="./images/gallery5.png">
+          </div>
+          <div class = "span2 pcon  prodcont actioninside new">
+            <img src="./images/gallery6.png">
+          </div>
+          <div class = "span2 pcon  prodcont actioninside new">
+            <img src="./images/gallery7.png">
+          </div>
+          <div class = "span2 pcon  prodcont actioninside new">
+            <img src="./images/gallery8.png">
+          </div>
+          <div class = "span2 pcon  prodcont actioninside new">
+            <img src="./images/gallery9.png">
+          </div>
+          <div class = "span2 pcon  prodcont actioninside new">
+            <img src="./images/gallery10.png">
+          </div>
+          <div class = "span2 pcon  prodcont actioninside new">
+            <img src="./images/gallery11.png">
+          </div>
+          <div class = "span2 pcon  prodcont actioninside new">
+            <img src="./images/gallery12.png">
+          </div>
         </div>
       </div>
       <div class = "feedback-wrapper">
@@ -343,11 +379,5 @@
       <script type="text/javascript" src="slick/slick.min.js"></script>
       <script type="text/javascript" src="./slick/slick-banner.js"></script>
       <script type="text/javascript" src="./slick/slick-comment.js"></script>
-
-      <script type="text/javascript">
-      $(document).ready(function () {
-        $('#categoryProductContainer').pinbox();
-      });
-      </script>
   </body>
 </html>
