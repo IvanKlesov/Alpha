@@ -192,7 +192,6 @@ body {
   font-size: 36px;
   font-weight: bold;
   color: #2E2E2E;
-  text-transform: uppercase;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -260,7 +259,6 @@ body {
   font-size: 36px;
   font-weight: bold;
   color: #2E2E2E;
-  text-transform: uppercase;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -310,7 +308,6 @@ body {
 
 .gallery-wrapper h2 {
   font-size: 36px;
-  text-transform: uppercase;
   font-weight: bold;
   color: #2E2E2E;
   text-align: center;
@@ -318,19 +315,12 @@ body {
 }
 
 .gallery {
-  position: relative;
   max-width: 95%;
   margin: 20px auto;
-  height: 500px;
+  height: 600px;
+  overflow: hidden;
 }
 
-.gallery div {
-
-}
-
-.gallery img {
-  width: 100%;
-}
 
 /* Gallery end */
 /* Feedback */
@@ -342,7 +332,6 @@ body {
 
 .feedback-wrapper h2 {
   font-size: 36px;
-  text-transform: uppercase;
   font-weight: bold;
   color: #2E2E2E;
   text-align: center;
@@ -384,7 +373,6 @@ body {
   font-size: 36px;
   font-weight: 550px;
   text-align: left;
-  text-transform: capitalize;
 }
 
 .prev-comment,
