@@ -343,7 +343,7 @@ body {
 }
 
 .comments {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 50px auto 80px;
   position: relative;
 }
@@ -352,6 +352,7 @@ body {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  width: 80% !important;
 }
 
 .comments img {
@@ -382,11 +383,11 @@ body {
   }
 
 .prev-comment {
-  left: -10%;
+  left: 0;
 }
 
 .next-comment {
-  right: -10%;
+  right: 0;
   bottom: 2%;
 }
 
