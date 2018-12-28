@@ -319,12 +319,17 @@ body {
 
 .gallery {
   position: relative;
-  max-width: 90%;
+  max-width: 95%;
   margin: 20px auto;
+  height: 500px;
 }
 
 .gallery div {
 
+}
+
+.gallery img {
+  width: 100%;
 }
 
 /* Gallery end */
