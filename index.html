@@ -13,6 +13,7 @@
     <script src="./js/jquery-1.11.1.min.js"></script>
     <script src = "./js/gridify.js"></script>
     <script src = "./js/gridify-min.js"></script>
+    <script src = "./js/toggle.js"></script>
     <script src="https://api-maps.yandex.ru/2.0-stable/?apikey=<0fcbba49-951b-4435-9244-5ebfd0919a39>&load=package.standard&lang=ru-RU" type="text/javascript"></script>
     <script type="text/javascript">
       ymaps.ready(init);
@@ -32,13 +33,13 @@
     </script>
   </head>
   <body>
-      <div class = "header">
+      <div class = "header" id = "main">
         <div class = "header-logo">
             <img src="./images/logo.svg">
         </div>
         <div class = "header-info">
             <div class = "header-info-phone">
-                 Тел.: <span>30-60-10</span> e-mail:<span>promokursk@yandex.ru</span>
+                 <p><span>Тел.: </span><span class = "bold">30-60-10</span></p><p><span> e-mail:</span><span class="bold">promokursk@yandex.ru</span></p>
             </div>
             <div class = "header-info-adress">
                 <ul>
@@ -52,27 +53,31 @@
                         <img src="./images/instagram-logo.svg">
                       </a>
                     </li>
-                    <li>
-                      <p>Адрес: <span>г. Курск, ул. Володарского, д. 70, оф. 2/1</span></p>
-                    </li>
-                </ul>
+                  </ul>
+                  <p>Адрес: <span>г. Курск, ул. Володарского, д. 70, оф. 2/1</span></p>
             </div>
             <div class = "header-info-menu">
+                <!--<div class = "toggle">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div> -->
                 <ul>
                   <li>
-                    <a href="#">Главная</a>
+                    <a href="#main" class="menu_links">Главная</a>
                   </li>
                   <li>
-                    <a href="#">Услуги</a>
+                    <a href="#services" class="menu_links">Услуги</a>
                   </li>
                   <li>
-                    <a href="#">Работы</a>
+                    <a href="#works" class="menu_links">Работы</a>
                   </li>
                   <li>
-                    <a href="#">Галерея</a>
+                    <a href="#gallery" class="menu_links">Галерея</a>
                   </li>
                   <li>
-                    <a href="#">Контакты</a>
+                    <a href="#feedback" class="menu_links">Контакты</a>
                   </li>
                 </ul>
             </div>
@@ -86,7 +91,7 @@
         <div class = "banner3">
         </div>
       </div>
-      <div class = "services-wrapper">
+      <div class = "services-wrapper" id = "services">
         <h2> Наши услуги </h2>
         <div class = "services">
           <div class = "service">
@@ -172,7 +177,7 @@
           </div>
         </div>
       </div>
-      <div class = "ourwork-wrapper">
+      <div class = "ourwork-wrapper" id = "works">
         <h2> Наши работы </h2>
         <div class = "ourwork-text">
           Нам важно не только выполнить свою работу, но и добиться успеха.
@@ -280,7 +285,7 @@
           </div>
         </div>
       </div>
-      <div class = "gallery-wrapper">
+      <div class = "gallery-wrapper" id = "gallery">
         <h2>Галерея</h2>
         <div class="gallery">
           <img id = "zoomimg" src="./images/gallery_1.png">
@@ -313,7 +318,7 @@
           <img src="./images/gallery_28.png">
         </div>
       </div>
-      <div class = "feedback-wrapper">
+      <div class = "feedback-wrapper" id = "feedback">
         <h2>Отзывы наших клиентов</h2>
         <div class = "comments">
           <div class = "comment">
