@@ -1,15 +1,7 @@
-(function($){
-  $(function() {
-    $('.toggle').on('click', function() {
-      $(this).closest('.header-info-menu')
-        .toggleClass('menu_state_open');
+jQuery(document).ready(function() {
+      jQuery('.toggle-nav').click(function(e) {
+        jQuery(this).toggleClass('header-nav');
+        jQuery('.header-info-menu ul').toggleClass('header-nav');
+        e.preventDefault();
+      });
     });
-
-    $('.menu_links').on('click', function() {
-      // do something
-
-      $(this).closest('.header-info-menu')
-        .removeClass('menu_state_open');
-    });
-  });
-})(jQuery);
